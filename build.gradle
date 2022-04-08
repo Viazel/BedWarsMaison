@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+    id 'idea'
+    id 'maven-publish'
+}
+
+group 'fr.viazel.bedwars'
+version '1.0'
+archivesBaseName = "Mathis"
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+compileJava.options.encoding = "UTF-8"
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+dependencies {
+    implementation group: 'org.spigotmc', name: 'spigot', version: '1.8.8-R0.1-SNAPSHOT', changing: true
+}

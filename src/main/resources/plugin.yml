@@ -1,0 +1,7 @@
+name: Mathis
+version: 1.0
+api-version: 1.8
+author: Viazel
+main: fr.viazel.bedwars.Main
+commands:
+  world:
